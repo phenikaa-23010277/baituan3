@@ -1,0 +1,65 @@
+/* 1. Liên kết "Chuyển đến Nội dung chính" */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* 2. Thanh điều hướng */
+nav {
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 3. Hình ảnh trong điều hướng */
+nav img {
+  width: 10%;
+}
+
+/* 4. Nhận xét kiểu dáng hiện có cho phần tử li */
+/*
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+*/
+
+/* 5. Lớp .grid sử dụng CSS Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 20px;
+}
+
+/* 6. Hình ảnh trong lớp .grid */
+.grid img {
+  width: 100%;
+}
+
+/* 7. Lớp .flex sử dụng Flexbox */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.flex .item {
+  flex: 1 1 30%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang Mẫu</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+
+  <header>
+    <nav>
+      <img src="logo.png" alt="Logo" />
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="grid">
+      <div>
+        <img src="image1.jpg" alt="Hình ảnh 1" />
+        <p>Nội dung cột 1</p>
+      </div>
+      <div>
+        <img src="image2.jpg" alt="Hình ảnh 2" />
+        <p>Nội dung cột 2</p>
+      </div>
+    </section>
+
+    <section class="flex">
+      <div class="item">Mục 1</div>
+      <div class="item">Mục 2</div>
+      <div class="item">Mục 3</div>
+    </section>
+  </main>
+</body>
+</html>
